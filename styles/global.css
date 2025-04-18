@@ -8,3 +8,9 @@
 /* the font-family 'JetBrains Mono', has been linked
  * and is available for your use
  * */
+h1 {
+  font-family: JetBrains Mono;
+  font-size: 2rem;
+  font-style: italic;
+}
+
