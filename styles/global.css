@@ -13,4 +13,28 @@ h1 {
   font-size: 2rem;
   font-style: italic;
 }
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 2px solid purple;
+  margin-top: 10px;
+  
+}
+#item{
+  width: 300px;
+  height: 350px;
+  margin: auto;
+  background-color: #efefef;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 0 8px gray;
+  #name{
+    font-weight: 900;
+    font-size: 2rem;
+  }
+  p{
+    font-size: 1.3rem;
+  }
+}
 
