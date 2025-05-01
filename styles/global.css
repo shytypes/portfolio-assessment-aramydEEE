@@ -13,28 +13,113 @@ h1 {
   font-size: 2rem;
   font-style: italic;
 }
-img{
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  border: 2px solid purple;
-  margin-top: 10px;
+a{
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 1rem;
+  font-weight: 900;
+  color: purple;
+}
+li{
+  display: inline;
+  margin: 20px;
+}
+nav{
+  float: right;
+  margin-right: 300px;
+  #search{
+      border: none;
+      border-radius: 10px;
+      position: relative;
+      left: 480px;
+      top: -37px;
+      background-color: black;
+      width: 250px;
+      height: 30px;
+      background-color:rgb(212, 123, 212);
+      color: white;
+      font-size: 1rem;
+  }
   
 }
-#item{
-  width: 300px;
-  height: 350px;
-  margin: auto;
-  background-color: #efefef;
+header{
+  margin-top: 20px;
+  width: 100vw;
+  min-height: 50px;
+  border-bottom: 5px solid purple;
+}
+.mainFlex{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 44px;
+}
+#innerFlex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  #item{
+    width: 250px;
+    height: 350px;
+    background-color: #efefef;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 0 8px gray;
+    #name{
+      font-weight: 900;
+      font-size: 1.3rem;
+    }
+    p{
+      font-size: 1.3rem;
+    }
+    img{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 2px solid purple;
+      margin-top: 10px;
+      
+    }
+  }
+}
+#item1{
+  border: 3px solid purple;
+  width: 400px;
+  height: 90vh;
   border-radius: 20px;
+  margin-left: 50px;
   text-align: center;
-  box-shadow: 0 0 8px gray;
-  #name{
+  #main{
+    width: 400px;
+    transition: all 3s 2s ease;
+    
+  }
+  #main:hover{
+    width: 200px;
+    transform: translate(50px 50px);
+  }
+  #weekDisplay{
     font-weight: 900;
     font-size: 2rem;
   }
   p{
-    font-size: 1.3rem;
+    margin: 10px;
   }
+  #buy{
+    margin-top: 20px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: red;
+    border: none;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+ 
 }
+
+
+
 
